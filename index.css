@@ -50,8 +50,8 @@ h1{
         }
         input{
             margin: 0 5px;
-            max-width: 60px;
-            max-height: 60px;
+            width: 60px;
+            height: 60px;
             text-align: center;
             font-size: 50px;
             caret-color: var(--primary-color);
@@ -59,6 +59,8 @@ h1{
             border: none;
             border-bottom:  3px solid #333;
             color: black;
+            font-family: "Changa", sans-serif;
+            font-weight: 600;
         }
         &:focus{
             outline-color: #ccc;
@@ -179,13 +181,21 @@ footer{
         display: grid;
         grid-template-columns: 1fr;
     }
+    .game-area{
+        .inputs{
+            input{
+                font-size: 40px;
+            }
+        }
+    }
 }
 @media(max-width: 580px){
     .game-area{
         .inputs{
             input{
-                max-width: 40px;
-                max-height: 40px;
+                width: 40px;
+                height: 40px;
+            font-size: 30px;
             }
         }
     }
@@ -200,8 +210,9 @@ footer{
     .game-area{
         .inputs{
             input{
-                max-width: 35px;
-                max-height: 35px;
+                width: 35px;
+                height: 35px;
+                font-size: 25px;
             }
             & > div {
                 span {
@@ -224,8 +235,9 @@ footer{
     .game-area{
         .inputs{
             input{
-                max-width: 25px;
-                max-height: 25px;
+                width: 25px;
+                height: 25px;
+                font-size: 14px;
             }
             & > div {
                 span {
