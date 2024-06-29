@@ -61,6 +61,7 @@ h1{
             color: black;
             font-family: "Changa", sans-serif;
             font-weight: 600;
+            font-size: 45px;
         }
         &:focus{
             outline-color: #ccc;
